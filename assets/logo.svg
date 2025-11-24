@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="zenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#67B26F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 禅圆 Enso Circle - 不完整的圆代表禅的意境 -->
+  <path d="M 100 20 A 80 80 0 1 1 95 20"
+        fill="none"
+        stroke="url(#zenGradient)"
+        stroke-width="3"
+        stroke-linecap="round"
+        opacity="0.9"/>
+
+  <!-- 莲花简化图案 -->
+  <g transform="translate(100, 100)">
+    <!-- 中心花蕊 -->
+    <circle cx="0" cy="0" r="8" fill="url(#zenGradient)" opacity="0.8"/>
+
+    <!-- 莲花瓣 - 五瓣代表五蕴 -->
+    <path d="M 0 -25 Q 8 -15 0 -8 Q -8 -15 0 -25"
+          fill="none"
+          stroke="url(#zenGradient)"
+          stroke-width="2"
+          stroke-linecap="round"/>
+    <path d="M 23.8 -7.7 Q 17 0 7.6 3 Q 12 -8 23.8 -7.7"
+          fill="none"
+          stroke="url(#zenGradient)"
+          stroke-width="2"
+          stroke-linecap="round"/>
+    <path d="M 14.7 19.3 Q 5 17 0 8 Q 5 12 14.7 19.3"
+          fill="none"
+          stroke="url(#zenGradient)"
+          stroke-width="2"
+          stroke-linecap="round"/>
+    <path d="M -14.7 19.3 Q -5 17 0 8 Q -5 12 -14.7 19.3"
+          fill="none"
+          stroke="url(#zenGradient)"
+          stroke-width="2"
+          stroke-linecap="round"/>
+    <path d="M -23.8 -7.7 Q -17 0 -7.6 3 Q -12 -8 -23.8 -7.7"
+          fill="none"
+          stroke="url(#zenGradient)"
+          stroke-width="2"
+          stroke-linecap="round"/>
+  </g>
+
+  <!-- 底部"禅"字简化标识 -->
+  <text x="100" y="175"
+        font-family="'Noto Serif SC', serif"
+        font-size="16"
+        fill="url(#zenGradient)"
+        text-anchor="middle"
+        opacity="0.7">禅修</text>
+</svg>

@@ -1,0 +1,44 @@
+# Maven
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# Database
+data/
+*.db
+*.mv.db
+*.trace.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/unpackage/
+frontend/.hbuilderx/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db

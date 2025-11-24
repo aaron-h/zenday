@@ -1,0 +1,100 @@
+{
+  "pages": [
+    {
+      "path": "pages/practice/index",
+      "style": {
+        "navigationBarTitleText": "我的功课",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/plan/index",
+      "style": {
+        "navigationBarTitleText": "每日计划",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/execute/index",
+      "style": {
+        "navigationBarTitleText": "修行执行",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/stats/index",
+      "style": {
+        "navigationBarTitleText": "修行统计",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarBackgroundColor": "#4A90E2",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/practice/edit",
+      "style": {
+        "navigationBarTitleText": "编辑功课"
+      }
+    },
+    {
+      "path": "pages/plan/edit",
+      "style": {
+        "navigationBarTitleText": "编辑计划"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "禅修",
+    "navigationBarBackgroundColor": "#4A90E2",
+    "backgroundColor": "#F2F6FC"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#4A90E2",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/practice/index",
+        "text": "功课",
+        "iconPath": "static/images/tab-practice.png",
+        "selectedIconPath": "static/images/tab-practice-active.png"
+      },
+      {
+        "pagePath": "pages/plan/index",
+        "text": "计划",
+        "iconPath": "static/images/tab-plan.png",
+        "selectedIconPath": "static/images/tab-plan-active.png"
+      },
+      {
+        "pagePath": "pages/execute/index",
+        "text": "执行",
+        "iconPath": "static/images/tab-execute.png",
+        "selectedIconPath": "static/images/tab-execute-active.png"
+      },
+      {
+        "pagePath": "pages/stats/index",
+        "text": "统计",
+        "iconPath": "static/images/tab-stats.png",
+        "selectedIconPath": "static/images/tab-stats-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/images/tab-profile.png",
+        "selectedIconPath": "static/images/tab-profile-active.png"
+      }
+    ]
+  }
+}
